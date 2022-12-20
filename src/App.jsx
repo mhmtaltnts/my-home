@@ -1,6 +1,6 @@
 
 import LayoutOne from "./layouts/LayoutOne"
-import {Home, ErrorPage, Contact} from "./pages"
+import {Home, ErrorPage, Contact, Projects} from "./pages"
 import {
   createBrowserRouter,
   RouterProvider,
@@ -22,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />,
+      },
+      {
+        path: "projects",
+        element: <Projects />,
       },
     ],
   },

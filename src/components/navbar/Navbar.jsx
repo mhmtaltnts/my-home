@@ -1,4 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react'
+import {Link} from "react-router-dom"
 import { useWindowSize } from "@react-hook/window-size"
 import ColorContext from '../../context/ColorContext'
 import classes from "./navbar.module.scss"
@@ -12,9 +13,9 @@ function getWindowSize() {
 const List = () => {
   return (
     <ul className={classes.nav__list}>
-      <li>Home</li>
-      <li>Projects</li>
-      <li>Contact</li>
+      <li><Link to="/">Home</Link></li>
+      <li><Link to="/projects">Projects</Link></li>
+      <li><Link to="/contact">Contact</Link></li>
     </ul>
   )
 

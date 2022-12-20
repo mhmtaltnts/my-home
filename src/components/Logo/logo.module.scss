@@ -1,15 +1,21 @@
 .logo {
     padding: 5px;
-}
-
-.logo > a {
     display: flex;
+    flex-direction:row-reverse;
     justify-content: center;
     align-items: center;
+    gap: 5px;
+}
+
+.logo > a {    
+    font-size: 2rem; 
+    font-family: 'Macondo', cursive;
+    
 }
 .logo__img{
     width: 90px;
     height: 45px;
+    
 }
 
 .logo_text{

@@ -28,8 +28,8 @@
     padding: 70px 20px;
     background-color: var(--BGCOLOR);
     z-index: 3;
-    border-left: solid green;
-    border-bottom: solid green;
+    border-left: solid #646cff;
+    border-bottom: solid #646cff;
 
 
 }
@@ -59,9 +59,7 @@
         letter-spacing: 0.175rem;
         line-height: 2rem;
         cursor: pointer;
-        :link{
-            
-        }
+        
         :hover {
             text-decoration: underline;
             color: aqua;

@@ -1,0 +1,116 @@
+.logo {
+    padding: 5px;
+}
+
+.logo > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo__img{
+    width: 90px;
+    height: 45px;
+}
+
+.logo_text{
+    font-family: 'Macondo', cursive;
+    color: var(--NAV-COLOR);
+    font-size: 1.6rem;
+    font-weight: 100;
+    letter-spacing: 0.5rem;   
+
+}
+
+@media screen and (min-width: 600px ) { 
+    .logo_text {
+        font-size: 1.7rem;
+        display: flex;
+        padding-left: 5px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;       
+    }  
+    
+    .logo__text_img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo__img{
+        width: 90px;
+        height: 45px;
+        align-items: center;
+    }    
+      
+}
+
+
+@media screen and (min-width: 768px ) { 
+    .logo_text {
+        font-size: 2.1rem;
+        padding-left: 5px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;       
+    }  
+    
+    .logo__text_img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo__img{
+        width: 90px;
+        height: 45px;
+        align-items: center;
+    }
+      
+}
+
+
+
+
+@media screen and (min-width : 992px) {
+
+    .logo__text_img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo__img{
+        width: 90px;
+        height: 45px;
+    }
+    
+    .logo_text{
+        font-size: 2.1rem;
+        font-size: 1.5rem;
+        font-weight: 100;
+        letter-spacing: 0.5rem;   
+    }    
+}
+
+
+@media screen and (min-width: 1200px ) { 
+    .logo__text_img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo__img{
+        width: 90px;
+        height: 45px;
+    }
+    
+    .logo_text{
+        font-family: 'Macondo', cursive;
+        color: var(--NAV-COLOR);
+        font-size: 1.5rem;
+        font-weight: 100;
+        letter-spacing: 0.5rem;
+        
+    
+    }
+        
+      
+}

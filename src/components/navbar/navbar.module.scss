@@ -1,0 +1,109 @@
+.color_mode{
+    width:50px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    background-color: rgb(177, 29, 29);
+    color: #646cff
+}
+
+.nav{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 90vh;
+    padding: 70px 20px;
+    background-color: var(--BGCOLOR);
+    z-index: 3;
+    border-left: solid green;
+    border-bottom: solid green;
+
+
+}
+.nav__list{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    :hover{
+        text-decoration: underline;
+    }
+    @media screen and (min-width: 900px ) { 
+        flex-direction: row; 
+        align-items: flex-start;
+        justify-content: flex-start;
+          
+    }
+    li {
+        font-family: 'Macondo', cursive;
+        font-size: 1.5rem;
+        padding-right: 30px;
+        color: var(--NAV-COLOR);
+        font-weight: 300;
+        font-style: italic;
+        letter-spacing: 0.175rem;
+        line-height: 2rem;
+        cursor: pointer;
+        :link{
+            
+        }
+        :hover {
+            text-decoration: underline;
+            color: aqua;
+    
+            
+        }
+             
+    } 
+    
+   
+    
+}
+
+
+.nav_close_button{
+    outline: none ;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    width: 40px;
+    background-color:var(--close-menu-button);
+    color: yellow;
+    border: 0px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+
+}
+
+.nav_open_button{
+    background-color: var(--open-menu-button);
+    align-self: flex-end;
+    padding: 5px;
+    color:yellow;
+    width: 40px;
+    border: 0px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    position: absolute;
+    right: 0px;
+    top: 30px;
+
+}
